@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   goToLink() {
-    window.location.href = 'https://stackoverflow.com';;
+    window.location.href = 'https://stackoverflow.com';
   }
   
 }
