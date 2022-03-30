@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'oauth2-angular';
+
+  goToLink() {
+    window.location.href = 'https://stackoverflow.com';;
+  }
+  
 }
